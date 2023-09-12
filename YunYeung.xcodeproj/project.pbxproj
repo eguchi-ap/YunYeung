@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9859E0D62AB03CD900E83C1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0D52AB03CD900E83C1D /* AppDelegate.swift */; };
 		9859E0D82AB03CD900E83C1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0D72AB03CD900E83C1D /* SceneDelegate.swift */; };
-		9859E0DA2AB03CD900E83C1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0D92AB03CD900E83C1D /* ViewController.swift */; };
 		9859E0DD2AB03CD900E83C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9859E0DB2AB03CD900E83C1D /* Main.storyboard */; };
 		9859E0DF2AB03CDA00E83C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9859E0DE2AB03CDA00E83C1D /* Assets.xcassets */; };
 		9859E0E22AB03CDA00E83C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9859E0E02AB03CDA00E83C1D /* LaunchScreen.storyboard */; };
@@ -18,13 +17,15 @@
 		9859E0EE2AB0402300E83C1D /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0ED2AB0402300E83C1D /* ImageSelectViewController.swift */; };
 		9859E0F02AB0405D00E83C1D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0EF2AB0405D00E83C1D /* PostViewController.swift */; };
 		9859E0F22AB0406E00E83C1D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0F12AB0406E00E83C1D /* SettingViewController.swift */; };
+		9859E0F52AB045D200E83C1D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859E0F42AB045D200E83C1D /* TabBarController.swift */; };
+		9859E0F72AB04B6300E83C1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9859E0F62AB04B6300E83C1D /* GoogleService-Info.plist */; };
+		A13462C01EA0F470932BC82E /* Pods_YunYeung.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDE2CCA0061277EF2834A3 /* Pods_YunYeung.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9859E0D22AB03CD900E83C1D /* YunYeung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunYeung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9859E0D52AB03CD900E83C1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9859E0D72AB03CD900E83C1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9859E0D92AB03CD900E83C1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9859E0DC2AB03CD900E83C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9859E0DE2AB03CDA00E83C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9859E0E12AB03CDA00E83C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +35,11 @@
 		9859E0ED2AB0402300E83C1D /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		9859E0EF2AB0405D00E83C1D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		9859E0F12AB0406E00E83C1D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9859E0F42AB045D200E83C1D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9859E0F62AB04B6300E83C1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEEDE2CCA0061277EF2834A3 /* Pods_YunYeung.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YunYeung.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A84B416061E00DB7A7A974 /* Pods-YunYeung.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunYeung.debug.xcconfig"; path = "Target Support Files/Pods-YunYeung/Pods-YunYeung.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC4B87C6D51A2E2F44B2838 /* Pods-YunYeung.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunYeung.release.xcconfig"; path = "Target Support Files/Pods-YunYeung/Pods-YunYeung.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13462C01EA0F470932BC82E /* Pods_YunYeung.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,8 @@
 			children = (
 				9859E0D42AB03CD900E83C1D /* YunYeung */,
 				9859E0D32AB03CD900E83C1D /* Products */,
+				E901562FC848C1D8CF213562 /* Pods */,
+				E23EE4793B01A32445729094 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,17 +77,17 @@
 			children = (
 				9859E0D52AB03CD900E83C1D /* AppDelegate.swift */,
 				9859E0D72AB03CD900E83C1D /* SceneDelegate.swift */,
-				9859E0D92AB03CD900E83C1D /* ViewController.swift */,
-				9859E0F32AB0414D00E83C1D /* View */,
+				9859E0F32AB0414D00E83C1D /* Controller */,
 				9859E0DB2AB03CD900E83C1D /* Main.storyboard */,
 				9859E0DE2AB03CDA00E83C1D /* Assets.xcassets */,
 				9859E0E02AB03CDA00E83C1D /* LaunchScreen.storyboard */,
 				9859E0E32AB03CDA00E83C1D /* Info.plist */,
+				9859E0F62AB04B6300E83C1D /* GoogleService-Info.plist */,
 			);
 			path = YunYeung;
 			sourceTree = "<group>";
 		};
-		9859E0F32AB0414D00E83C1D /* View */ = {
+		9859E0F32AB0414D00E83C1D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				9859E0E92AB03FD300E83C1D /* LoginViewController.swift */,
@@ -86,8 +95,27 @@
 				9859E0ED2AB0402300E83C1D /* ImageSelectViewController.swift */,
 				9859E0EF2AB0405D00E83C1D /* PostViewController.swift */,
 				9859E0F12AB0406E00E83C1D /* SettingViewController.swift */,
+				9859E0F42AB045D200E83C1D /* TabBarController.swift */,
 			);
-			path = View;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E23EE4793B01A32445729094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDE2CCA0061277EF2834A3 /* Pods_YunYeung.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E901562FC848C1D8CF213562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A84B416061E00DB7A7A974 /* Pods-YunYeung.debug.xcconfig */,
+				DBC4B87C6D51A2E2F44B2838 /* Pods-YunYeung.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9859E0E62AB03CDA00E83C1D /* Build configuration list for PBXNativeTarget "YunYeung" */;
 			buildPhases = (
+				3F458CAD158F500224008F32 /* [CP] Check Pods Manifest.lock */,
 				9859E0CE2AB03CD900E83C1D /* Sources */,
 				9859E0CF2AB03CD900E83C1D /* Frameworks */,
 				9859E0D02AB03CD900E83C1D /* Resources */,
+				8643FEFEC2FC073B3EC563B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9859E0E22AB03CDA00E83C1D /* LaunchScreen.storyboard in Resources */,
+				9859E0F72AB04B6300E83C1D /* GoogleService-Info.plist in Resources */,
 				9859E0DF2AB03CDA00E83C1D /* Assets.xcassets in Resources */,
 				9859E0DD2AB03CD900E83C1D /* Main.storyboard in Resources */,
 			);
@@ -156,17 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F458CAD158F500224008F32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YunYeung-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8643FEFEC2FC073B3EC563B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YunYeung/Pods-YunYeung-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YunYeung/Pods-YunYeung-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YunYeung/Pods-YunYeung-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9859E0CE2AB03CD900E83C1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9859E0EE2AB0402300E83C1D /* ImageSelectViewController.swift in Sources */,
+				9859E0F52AB045D200E83C1D /* TabBarController.swift in Sources */,
 				9859E0EC2AB0400200E83C1D /* HomeViewController.swift in Sources */,
 				9859E0F02AB0405D00E83C1D /* PostViewController.swift in Sources */,
 				9859E0F22AB0406E00E83C1D /* SettingViewController.swift in Sources */,
 				9859E0EA2AB03FD300E83C1D /* LoginViewController.swift in Sources */,
-				9859E0DA2AB03CD900E83C1D /* ViewController.swift in Sources */,
 				9859E0D62AB03CD900E83C1D /* AppDelegate.swift in Sources */,
 				9859E0D82AB03CD900E83C1D /* SceneDelegate.swift in Sources */,
 			);
@@ -310,6 +383,7 @@
 		};
 		9859E0E72AB03CDA00E83C1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A84B416061E00DB7A7A974 /* Pods-YunYeung.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +415,7 @@
 		};
 		9859E0E82AB03CDA00E83C1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC4B87C6D51A2E2F44B2838 /* Pods-YunYeung.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
