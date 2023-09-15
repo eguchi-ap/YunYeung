@@ -11,12 +11,66 @@
         <!--Login View Controller-->
         <scene sceneID="v6X-Qn-yyN">
             <objects>
-                <viewController storyboardIdentifier="Login" id="lS2-ST-5Ha" customClass="LoginViewController" customModule="YunYeung" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" modalPresentationStyle="fullScreen" id="lS2-ST-5Ha" customClass="LoginViewController" customModule="YunYeung" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OL1-B6-gMi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XTD-K1-OW2">
+                                <rect key="frame" x="46.666666666666657" y="139" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Hw5-NH-0J3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihw-gM-l9r">
+                                <rect key="frame" x="46.666666666666657" y="183" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="nPp-kR-tck"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="アカウント作成時は表示名を入力" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tT-pl-rul">
+                                <rect key="frame" x="46.666666666666657" y="227" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="ER8-FM-eRB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bG4-Qq-C1a">
+                                <rect key="frame" x="46.666666666666657" y="271" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="QLl-1u-6jL"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="ログイン" backgroundImage="btn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvh-kt-VUZ">
+                                <rect key="frame" x="46.666666666666657" y="321" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="3Pn-hk-kjc"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="アカウント作成" backgroundImage="btn"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fIu-hy-pEO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uvh-kt-VUZ" firstAttribute="top" secondItem="bG4-Qq-C1a" secondAttribute="bottom" constant="10" id="4cH-iO-sqP"/>
+                            <constraint firstItem="XTD-K1-OW2" firstAttribute="top" secondItem="fIu-hy-pEO" secondAttribute="top" constant="80" id="6Ee-O5-oow"/>
+                            <constraint firstItem="XTD-K1-OW2" firstAttribute="centerX" secondItem="OL1-B6-gMi" secondAttribute="centerX" id="DJY-hL-Wam"/>
+                            <constraint firstItem="Uvh-kt-VUZ" firstAttribute="centerX" secondItem="OL1-B6-gMi" secondAttribute="centerX" id="G7h-bY-Bac"/>
+                            <constraint firstItem="Ihw-gM-l9r" firstAttribute="centerX" secondItem="OL1-B6-gMi" secondAttribute="centerX" id="Hhv-UX-3Hi"/>
+                            <constraint firstItem="bG4-Qq-C1a" firstAttribute="centerX" secondItem="OL1-B6-gMi" secondAttribute="centerX" id="MLI-9V-MNk"/>
+                            <constraint firstItem="bG4-Qq-C1a" firstAttribute="top" secondItem="3tT-pl-rul" secondAttribute="bottom" constant="10" id="Ztd-eK-7jr"/>
+                            <constraint firstItem="Ihw-gM-l9r" firstAttribute="top" secondItem="XTD-K1-OW2" secondAttribute="bottom" constant="10" id="bS1-IF-S5j"/>
+                            <constraint firstItem="3tT-pl-rul" firstAttribute="top" secondItem="Ihw-gM-l9r" secondAttribute="bottom" constant="10" id="dwu-D1-rVi"/>
+                            <constraint firstItem="3tT-pl-rul" firstAttribute="centerX" secondItem="OL1-B6-gMi" secondAttribute="centerX" id="qC9-cK-zih"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xG6-Ko-8co" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -53,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOf-AV-za5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="701"/>
+            <point key="canvasLocation" x="132" y="701"/>
         </scene>
         <!--Post View Controller-->
         <scene sceneID="NN0-pc-BIH">
@@ -92,6 +146,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pe2-F7-k7m" customClass="TabBarController" customModule="YunYeung" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YxB-FQ-uFo">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -107,6 +162,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="btn" width="300" height="40"/>
         <image name="camera" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="setting" width="25" height="25"/>
