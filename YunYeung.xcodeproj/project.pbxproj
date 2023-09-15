@@ -114,7 +114,6 @@
 				D6A84B416061E00DB7A7A974 /* Pods-YunYeung.debug.xcconfig */,
 				DBC4B87C6D51A2E2F44B2838 /* Pods-YunYeung.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -392,7 +391,7 @@
 				DEVELOPMENT_TEAM = FFVY9T4L8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YunYeung/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -424,7 +423,7 @@
 				DEVELOPMENT_TEAM = FFVY9T4L8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YunYeung/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
